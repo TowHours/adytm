@@ -189,11 +189,6 @@ img {
     align-items: center;
 }
 
-.dark-icon {
-    font-size: 1.15rem;
-    cursor: pointer;
-}
-
 .header_logo, .header_toggle {
     color: var(--title-color);
 }
@@ -204,7 +199,6 @@ img {
 
 .header_toggle {
     font-size: 1.15rem;
-    padding-left: 87%;
     cursor: pointer;
 }
 
