@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adytm</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light-theme.css" id="theme">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="navbar_menu container" id="navbar-menu">
+            <div class="navbar_shape"></div>
+            <div class="navbar_close" id="navbar-close">
+                <i class="bx bx-x"></i>
+            </div>
+
+            <div class="navbar_content">
+                <div class="navbar_mask">
+                    <img src="img/F.png" alt="" class="navbar_img">
+                </div>
+
+                <span class="navbar_welcome">Welcome, I'm</span>
+                <h1 class="navbar_name">Fiqri <br> Pramudya</h1>
+            </div>
+
+            <ul class="navbar_list">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_link">
+                        <i class="bx bx-home"></i> Home
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_link">
+                        <i class="bx bx-user"></i> About
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#skills" class="navbar_link">
+                        <i class="bx bx-briefcase"></i> Skills
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#contact" class="navbar_link">
+                        <i class="bx bx-phone-call"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main" id="main">
+        <header class="header" id="header">
+            <nav class="navbar_header container">
+                <a href="https://adytm-link.netlify.app/" target="_blank" class="header_logo">
+                    Adytm
+                </a>
+                <div class="header_toggle" id="header-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Home -->
+        <section class="section section-height container" id="home">
+            <h1>Home</h1>
+            <div class="body-home">
+                <div class="wrapper-home">
+                    <div class="circular-bar">
+                        <div class="percent">0%</div>
+                    </div>
+    
+                    <label>My laziness</label>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section-height container" id="about">
+            <h1>About</h1>
+            <nav class="about">
+                <div class="content">
+                    <h1>Hi, I'm Fiqri</h1>
+                    <h1>Frontend Developer</h1>
+                    <p>I'am a student at the Muhammadiyah University of Banjarmasin. I am still learning how to develop my skills.</p>
+                </div>                
+                <div>
+                    <img src="img/about.jpg" class="imgAbout">
+                </div>
+            </nav>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-height container" id="skills">
+            <h1>Skills</h1>
+            <div class="wrapper">
+                <ul class="accordian">
+                    <li>
+                        <input type="radio" id="option1" name="accordian" class="radio">
+                        <label for="option1">HTML</label>
+                        <div class="answer">
+                            I have sufficient skill in HTML.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="option2" name="accordian" class="radio">
+                        <label for="option2">CSS</label>
+                        <div class="answer">
+                            my CSS is not that bad and I still learning.
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="option3" name="accordian" class="radio">
+                        <label for="option3">JavaScript</label>
+                        <div class="answer">
+                            Still learning JavaScript.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-height container" id="contact">
+            <h1>Contact</h1>
+            <div class="wrapper-contact">
+                <div class="icon-wrapper" id="instagram">
+                    <a href="https://www.instagram.com/adytm__/" class="media-icon"><i class='bx bxl-instagram'></i></a>
+                    <div class="tooltip">Instagram</div>
+                </div>
+                <div class="icon-wrapper" id="twitter">
+                    <a href="https://twitter.com/adytm__" class="media-icon"><i class='bx bxl-twitter'></i></a>
+                    <div class="tooltip">Twitter</div>
+                </div>
+                <div class="icon-wrapper" id="github">
+                    <a href="https://github.com/TowHours" class="media-icon"><i class='bx bxl-github'></i></a>
+                    <div class="tooltip">Github</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
